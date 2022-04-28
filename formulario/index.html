@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>FORMULARIO</title>
+
+</head>
+<body>
+    <div id="contenedor">
+        <input type="text" placeholder="Nombre" id="nombre">
+        <input type="number" placeholder="Edad" id="edad">
+        <select id="genero">
+            <option value="" selected="selected" disabled="disabled">Genero</option>
+            <option value="F">femenino</option>
+            <option value="M">masculino</option>
+        </select>
+        <input type="button" value="enviar" onclick="registrar()">
+        <div id="div_tabla">
+            <table id="tabla">
+                <thead>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Genero</th>
+                </thead>
+            </table>
+        </div>
+        
+    </div>
+    
+    <script src="js/form.js"></script>
+</body>
+</html>
